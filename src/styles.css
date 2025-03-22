@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.row {
+  margin: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+}
+.box-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center; /* Centers everything horizontally */
+  justify-content: center;
+}
+.green-box {
+  border: 2px solid black;
+  background: green;
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+}
+
+.white-box {
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+}
